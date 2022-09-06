@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+/*
+    HTML é id (identificação) = CSS é hastag (#) - só pode um elemento.
+    HTML é class (classe) = CSS é ponto (.) - pode vários elementos.
+    1° configuração genérica
+    2° class sobrepõe a configuração genérica
+    3° id sobrepõe a class e a configuração genérica
+*/
+
+body{
+    background-color: rgb(205,255,203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Configuração genérica - configura todos os elementos h1*/
+h1{
+    color: rgb(4, 109, 0);
+}
+
+/*Configuração personalizada - configura o elemento h1 que contenha uma identificação;
+obs: posso omitir o elemento h1 : 
+#principal{text-align:center;}*/
+h1#principal{
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2{
+    color: rgb(73, 109, 71);
+}
+
+.basico{
+    color: rgb(73, 109, 71);
+   
+}
+.intermediario{
+    color: rgb(160, 158, 52);
+}
+.avancado{
+    color: rgb(179, 62, 62);
+}
+
+.destaque{
+    background-color: #c5c56071;
+}

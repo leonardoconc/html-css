@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <!--
+        <ol> parametros: 
+        type="" que dá 5 opçoes: 1, A, a, I, i.
+        start="" Qual numero ou letra quero começar a contagem
+    -->
+    <ol type="1" start="1">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir pra faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <!--A partir do HTML5 o </li> se torna opcional-->
+
+    <h2>Listas não ordernadas</h2>
+    <!--type="" tenho 3 opções: disc, circle, square.-->
+    <ul type="square">
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Manteiga
+        <li>Arroz
+        <li>Feijão
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Visual Basic</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <!--Posso misturar ol com ul-->
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels </li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+            <ul type="circle">
+                <li>Donkey Kong Coutry III</li>
+                <li>Diddy's Kong Quest</li>
+            </ul>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <ul>
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2>Listas de Definições</h2>
+    <!--É como se fosse um dicionario, eu vou colocar o termo e a definição dele.-->
+
+    <dl>
+        <dt>Termo</dt>
+        <dd>Definição</dd>
+
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividades em sites.</dd>
+    </dl>
+     
+</body>
+</html>

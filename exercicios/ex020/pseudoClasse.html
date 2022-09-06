@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe</title>
+    <style>
+        div{
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            display: inline-block;
+        }
+        /*
+        A gente aprendeu que: 
+        # (hastag) é um id (identificação);
+        . (ponto) é uma classe;
+        E agora você vai aprender que: 
+        : (dois pontos) é uma PSEUDO-CLASS;
+        As pseudo-classes estão relacionadas a um elemento ou a uma classe, estão relacionadas ao estado de um determinado elemento, se ele está ativo (:active), se ele está marcado (:checked), se ele está vazio (:empty) e etc...
+        */
+
+        /*:hover - siginica - Quando eu passar o mouse por cima*/
+
+        div:hover{
+            background-color: yellow;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
